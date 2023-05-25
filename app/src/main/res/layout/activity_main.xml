@@ -73,30 +73,30 @@
         app:layout_constraintGuide_begin="329dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_bleep"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Press"
+        android:text="Bleep"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline11"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline6" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_woops"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Press"
+        android:text="woops"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline11"
         app:layout_constraintTop_toTopOf="@+id/guideline6" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_gameover"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Press"
+        android:text="GameOver"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.395"
