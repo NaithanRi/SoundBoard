@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
     private Button btnBleep;
     private Button btnWoops;
 
-    private Button btnarcadeGameover;
+    private Button btnArcadeGameover;
 
-    private Button btnalientalk;
+    private Button btnAlienTalk;
 
     private Button btnfalling;
 
@@ -25,13 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnhorrorchaos;
 
-    private Button btnfalling;
-
-    private Button falling;
-
-    private Button falling;
-
-    private Button falling;
 
 
 
@@ -43,12 +36,8 @@ public class MainActivity extends AppCompatActivity {
         //inititalize buttons
         btnBleep = findViewById(R.id.btn_bleep);
         btnWoops = findViewById(R.id.btn_woops);
-        btnarcadeGameover = findViewById(R.id.btn_gameover);
-        btnalientalk = findViewById(R.id.btn_alientalk);
-        btnalientalk = findViewById(R.id.btn_falling);
-        btnalientalk = findViewById(R.id.btn_scifibleep);
-        btnalientalk = findViewById(R.id.btn_sneeze);
-        btnalientalk = findViewById(R.id.btn_horrorchaos);
+        btnArcadeGameover = findViewById(R.id.btn_gameover);
+
 
 
 
@@ -66,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnarcadeGameover.setOnClickListener(new View.OnClickListener() {
+        btnArcadeGameover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 playArcade();
