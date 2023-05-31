@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black">#0216f5</color>
     <color name="white">#FFFFFFFF</color>
     <color name="title_text">#f1f500</color>
-    <color name="background">#4805f2</color>
-    <color name="button_background">#f5dd02</color>
-    <color name="button_text">#4f4d47</color>
+    <color name="bg">#4805f2</color>
+    <color name="btn_bg1">#f5dd02</color>
+    <color name="btn_bg2">#f51202</color>
+    <color name="btn_txt1">#4f4d47</color>
+    <color name="btn_txt2">#661649</color>
 </resources>
